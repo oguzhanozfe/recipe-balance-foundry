@@ -1,0 +1,24 @@
+{
+  "model": "gemma-4-e4b-it",
+  "provider": "local",
+  "source_sha256": "d254a7ff273694eaa8ad98b130bfb23d5e720cfad416ffbee6aba5a06af0318b",
+  "considered": 3,
+  "total": 3,
+  "recommendations": [
+    {
+      "id": "price:toolbox",
+      "evidence_id": "item:toolbox",
+      "why": "The proposed new price of 31 coins aligns exactly with the item's established 'price_floor' of 31, which exceeds its unit cost (23) and reflects a markup driven by raw inputs like ore."
+    },
+    {
+      "id": "price:hinge",
+      "evidence_id": "item:hinge",
+      "why": "The proposed price of 8 coins matches the item's 'price_floor' of 8, moving it above its unit cost (6) to meet system pricing constraints."
+    },
+    {
+      "id": "price:ingot",
+      "evidence_id": "item:ingot",
+      "why": "The suggested price increase to 11 coins meets the 'price_floor' of 11, establishing a required markup above its current unit cost (8)."
+    }
+  ]
+}

@@ -2,11 +2,13 @@
 
 Expand crafting recipes into raw costs and batch requirements, then export approved sell-price adjustments.
 
-[![Verify](https://github.com/oguzhanozfe/recipe-balance-foundry/actions/workflows/check.yml/badge.svg)](https://github.com/oguzhanozfe/recipe-balance-foundry/actions/workflows/check.yml) · [Deploy to Render](https://render.com/deploy?repo=https://github.com/oguzhanozfe/recipe-balance-foundry) · [Input guide](GUIDE.md)
+**[Open the live demo](https://oguzhanozfe.github.io/recipe-balance-foundry/)** · [![Verify](https://github.com/oguzhanozfe/recipe-balance-foundry/actions/workflows/check.yml/badge.svg)](https://github.com/oguzhanozfe/recipe-balance-foundry/actions/workflows/check.yml) · [Deploy to Render](https://render.com/deploy?repo=https://github.com/oguzhanozfe/recipe-balance-foundry) · [Input guide](GUIDE.md)
 
 Before changing a crafting price, trace a finished item back to raw ingredients. Compare its unit cost with the materials needed to make a whole batch.
 
 ![Example result for Recipe Balance Foundry](docs/result.png)
+
+The live demo lets you edit the input, search proposed changes with an on-device model and download the result. [Browser demo details](demo/DEMO.md)
 
 ## Try it
 
