@@ -1,0 +1,6 @@
+item,required_units,craft_batches,batch_surplus,raw_to_buy
+toolbox,2,2,0,0
+hinge,5,2,1,0
+ingot,6,3,0,0
+coal,3,0,0,3
+ore,9,0,0,9

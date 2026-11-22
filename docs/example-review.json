@@ -1,0 +1,22 @@
+{
+  "action": "Raise toolbox from 15 to 31 coins",
+  "id": "price:toolbox",
+  "linked_source_records": [
+    "item:toolbox",
+    "item:hinge",
+    "item:ingot"
+  ],
+  "choices": {
+    "price:toolbox": ""
+  },
+  "artifacts": {
+    "economy-prices.csv": {
+      "sha256": "e95615e3161a60ef4753cc51b42456acba9a9d430ad1de8c65e3c208e5a5491e",
+      "changed_by_approval": true
+    },
+    "production-order.csv": {
+      "sha256": "436700c0e06bbad48cfa158b5960e4dd3c25238d32cf0046c673e13ca8c41306",
+      "changed_by_approval": false
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "margin_percent": 25,
+  "items": [
+    {
+      "id": "ore",
+      "raw_cost": 4,
+      "sell_price": 5
+    },
+    {
+      "id": "coal",
+      "raw_cost": 3,
+      "sell_price": 4
+    },
+    {
+      "id": "ingot",
+      "batch_yield": 2,
+      "batch_fee": 1,
+      "sell_price": 7,
+      "recipe": [
+        {
+          "item": "ore",
+          "quantity": 3
+        },
+        {
+          "item": "coal",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "hinge",
+      "batch_yield": 3,
+      "batch_fee": 2,
+      "sell_price": 6,
+      "recipe": [
+        {
+          "item": "ingot",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "toolbox",
+      "batch_yield": 1,
+      "batch_fee": 3,
+      "sell_price": 15,
+      "recipe": [
+        {
+          "item": "hinge",
+          "quantity": 2
+        },
+        {
+          "item": "ingot",
+          "quantity": 1
+        }
+      ]
+    }
+  ],
+  "order": [
+    {
+      "item": "toolbox",
+      "quantity": 2
+    },
+    {
+      "item": "hinge",
+      "quantity": 1
+    }
+  ]
+}
